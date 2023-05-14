@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    font-size: 1.25rem;
+    color: white;
+    background: #121212;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    background-color: #808080;
+    padding: 1rem;
+}
+
+.bar {
+    background-color: blue;
+    height: 5px;
+    width: 1%;
+}
+
+main {
+    visibility: hidden;
+}
